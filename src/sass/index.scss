@@ -1,0 +1,66 @@
+@import "_mixin.scss";
+@import "common.scss";
+.wrap {
+    width: 100%;
+    height: 100%;
+    // background: skyblue;
+    font-size: px2rem(16px)
+}
+
+.header {
+    display: flex;
+    margin-top: px2rem(6px)
+}
+
+.header input {
+    border: 1px solid #ccc;
+}
+
+.header s1,
+.header s2,
+.header input {
+    flex: 1
+}
+
+.list {
+    display: flex;
+    margin-top: px2rem(16px)
+}
+
+.list li {
+    width: 21%;
+}
+
+.menu {
+    display: flex;
+    margin-top: px2rem(16px)
+}
+
+.menu li {
+    width: 33%;
+}
+
+p img {
+    margin-top: px2rem(66px)
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .div {
+    width: 25%;
+    margin-top: px2rem(6px);
+    text-align: center;
+}
+
+.list li:hover {
+    color: #f90;
+    color: gold;
+}
+
+.list li:first-of-type {
+    color: #f90;
+    color: gold;
+    border-bottom: 1px solid #f90;
+}
